@@ -1,0 +1,36 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fefefe;
+  margin: 20px;
+}
+
+h1, h2 {
+  color: #444;
+}
+
+.products, .cart {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.product, .cart-item {
+  border: 1px solid #ccc;
+  padding: 15px;
+  border-radius: 8px;
+  width: 200px;
+  text-align: center;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #45a049;
+}
